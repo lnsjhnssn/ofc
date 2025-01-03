@@ -17,9 +17,11 @@ let posts = allPosts
 <content>
   <ul class="posts-list">
     {
-      posts.map(({ url, data: { slug, title, tags, added: date } }) => (
-        <Post {url} {date} {slug} {title} {tags} />
-      ))
+      posts.map(
+        ({ url, data: { description, slug, title, tags, added: date } }) => (
+          <Post {url} {description} {date} {slug} {title} {tags} />
+        )
+      )
     }
   </ul>
 </content>

@@ -1,6 +1,7 @@
 ---
 title: New Post
 slug: new-post
+description: This is my new post
 tags: []
 added: 2025-01-03T00:40:28.643Z
 ---

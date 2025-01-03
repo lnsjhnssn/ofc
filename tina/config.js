@@ -53,6 +53,12 @@ export default defineConfig({
             required: true,
           },
           {
+            label: "Description",
+            name: "description",
+            type: "string",
+            required: true,
+          },
+          {
             label: "Tags",
             name: "tags",
             type: "string",

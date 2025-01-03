@@ -69,13 +69,7 @@
           "type": "string"
         }
       },
-      "required": [
-        "title",
-        "slug",
-        "description",
-        "added",
-        "tags"
-      ],
+      "required": ["title", "slug", "description", "added", "tags"],
       "additionalProperties": false
     }
   },
