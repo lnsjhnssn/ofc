@@ -3,7 +3,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "http://localhost:4321",
+  site: "https://oreliefuchs.netlify.app",
   base: "/",
   integrations: [sitemap()],
   markdown: {
