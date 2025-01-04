@@ -15,7 +15,7 @@ En invitant un masseur sur scène, avec quatre interprètes, le projet s’est a
 Production Cie astérisque
 Co-production Centre de culture ABC 
 
-Ce projet n’aurait pas vu le jour sans le soutien de:
+Ce projet n’aurait pas vu le jour sans le soutien de:\
 La Loterie Romande, \
 l’Etat de Neuchâtel, \
 la Ville de la Chaux-de-Fonds, \
