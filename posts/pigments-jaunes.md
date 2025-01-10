@@ -2,7 +2,9 @@
 title: Pigments jaunes
 slug: pigments-jaunes
 description: '2019'
-tags: []
+tags:
+  - learning
+  - events
 added: 2025-01-04T10:43:46.855Z
 ---
 
