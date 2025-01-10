@@ -65,12 +65,12 @@ export default defineConfig({
             list: true,
             options: [
               {
-                value: "technical",
-                label: "Technical",
+                value: "theatre",
+                label: "Theatre",
               },
               {
-                value: "advice",
-                label: "Advice",
+                value: "expositions",
+                label: "Expositions",
               },
               {
                 value: "events",
