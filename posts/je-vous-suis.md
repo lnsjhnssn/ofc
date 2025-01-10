@@ -4,6 +4,7 @@ slug: je-vous-suis
 description: This is a show
 tags:
   - work
+  - musings
 added: 2025-01-03T01:26:27.420Z
 ---
 
