@@ -1,6 +1,6 @@
 ---
 title: Prose horizontale
-slug: 'prose-horizontale '
+slug: "prose-horizontale "
 description: This is my new post
 tags: []
 added: 2025-01-03T00:40:28.643Z
@@ -14,10 +14,10 @@ Fat text : \
 **En invitant un masseur sur scène, avec quatre interprètes, le projet s’est attelé à sortir des apparences. Après une pantomime naïve du soin et du plaire, les spectateurs.trices sont invité.e.s à une plongée intérieure au-travers de l’image symbolique de cinq êtres grattant la surface du sol du théâtre pour re.trouver leur profondeur et leur humilité.**
 
 Italic text :\
-*This is some italic text that I want.*
+_This is some italic text that I want._
 
-* Bulleted List
-* List item
+- Bulleted List
+- List item
 
 Production Cie astérisque\
 Co-production Centre de culture ABC
