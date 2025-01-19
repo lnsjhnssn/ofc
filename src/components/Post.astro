@@ -8,8 +8,6 @@ const { slug, title, tags, description, date } = Astro.props;
     {
       new Date(date).toLocaleDateString("en-us", {
         year: "numeric",
-        month: "short",
-        day: "numeric",
       })
     }
   </time>

@@ -8,6 +8,7 @@ import ColorScript from "../components/ColorScript.astro";
 import Tags from "../components/Tags.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
 import { Content as About } from "./about.md";
+
 import getTags from "../scripts/getTags";
 
 const posts = await getCollection("posts");
@@ -16,28 +17,22 @@ const tags = getTags(posts);
 
 <!doctype html>
 <html lang="en-us">
-	<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	<body>
-		<Header title={SITE_TITLE} />
-		<main>
-			<About />
+  <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  <body>
+    <Header title={SITE_TITLE} />
+    <main>
+      <br />
 
-			<br />
+      <!-- <h3 class="center">Réalisations récentes</h3> -->
+      <HomePosts allPosts={posts} />
 
-			<h3>Here's my most recent posts</h3>
+      <br />
 
-			<HomePosts allPosts={posts} />
-
-			<p class="center">
-				You can also <a href="https://blahg.netlify.app/rss.xml">
-					subscribe with RSS!
-				</a>
-			</p>
-			<br />
-
-			<Tags tags={tags} all />
-		</main>
-		<Footer />
-		<ColorScript />
-	</body>
+      <!-- <Tags tags={tags} all /> -->
+      <h3>contact</h3>
+      <a href="mailto:linus@trubbelstudio.ch">linus@trubbelstudio.ch</a>
+    </main>
+    <Footer />
+    <ColorScript />
+  </body>
 </html>
