@@ -32,26 +32,24 @@ body {
   word-wrap: break-word;
   overflow-wrap: break-word;
   color: var(--black);
+  line-height: 1.5;
 }
 html,
 body,
 button,
 code {
   font-family: "iA Writer Mono", monospace;
-  /* font-family: fairgates, serif; */
+  font-family: ui-sans-serif, sans-serif;
 }
 
 .header-title {
-  font-family: fairgates, serif;
+  font-family: fairgates, sans-serif;
 }
 
 h2 {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 1rem;
-  background-color: var(--transwhite);
-  display: inline;
-  padding: 0.2rem 0.5rem;
-  border-radius: 0.5rem;
+  /* display: inline; */
 }
 
 h3,
@@ -61,6 +59,10 @@ h4 {
 
 h4 {
   font-size: 1.2rem;
+}
+
+h4.title {
+  display: inline;
 }
 
 h1,
@@ -123,15 +125,15 @@ body.dark-mode nav {
   }
 }
 
-h4,
+/* h4,
 h5,
 h6 {
   color: var(--gray);
   line-height: 1.1;
-}
+} */
 
 header {
-  position: relative;
+  display: flex;
 }
 
 article {
@@ -144,11 +146,30 @@ a {
   text-underline-offset: 0.3ex;
 }
 
+.nav-list {
+  list-style-type: none;
+}
+
+.nav-list li {
+  margin: 0 10px;
+}
+
+.header-nav a {
+  text-decoration: none;
+}
+
+.header-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
 nav {
   position: sticky;
   top: 0;
   text-align: center;
-  background: var(--transwhite);
+  /* background: var(--transwhite); */
   -webkit-backdrop-filter: blur(1px);
   backdrop-filter: blur(1px);
 }

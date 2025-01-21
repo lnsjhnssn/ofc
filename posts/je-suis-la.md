@@ -1,0 +1,10 @@
+---
+title: Je suis là by Murielle Bechame
+slug: je-suis-la
+description: 'Sound design for the stage performance. Recording and mix for video. '
+image: ''
+tags:
+  - sound
+added: 2024-11-19T23:00:00.000Z
+---
+

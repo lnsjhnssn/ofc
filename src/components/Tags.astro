@@ -1,18 +1,34 @@
 ---
 const { tags, all } = Astro.props;
+// Get the current path to check which tag is active
+const currentPath = Astro.url.pathname;
 ---
 
-{all && <h3 class="tag-title">View posts by tag</h3>}
 <div class=`${all && "tags"}`>
   {
     tags &&
       tags.map((tag) => (
-        <>
-          <a class="tag" href={`/tag/${tag}`}>
+        <d>
+          <a
+            class:list={[
+              "tag",
+              // Add 'active' class if current path matches this tag
+              { active: currentPath === `/tag/${tag}` },
+            ]}
+            href={`/tag/${tag}`}
+          >
             {tag}
           </a>
           {` `}
-        </>
+        </d>
       ))
   }
 </div>
+
+<style>
+  .tag.active {
+    text-decoration: underline;
+    text-decoration-thickness: 0.3ex;
+    text-underline-offset: 0.3ex;
+  }
+</style>

@@ -1,14 +1,25 @@
 ---
 import HeaderLink from "./HeaderLink.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
+import Tags from "./Tags.astro";
+import { getCollection } from "astro:content";
+import getTags from "../scripts/getTags";
+
+const posts = await getCollection("posts");
+const tags = getTags(posts);
 ---
 
 <header>
   <div class="header-section">
     <div class="header-frame">
-      <h1 class="header-title">{SITE_TITLE}</h1>
+      <h1 class="header-title">
+        {SITE_TITLE}
+      </h1>
       <h2>{SITE_DESCRIPTION}</h2>
     </div>
+    <nav class="header-nav">
+      <Tags tags={tags} />
+    </nav>
   </div>
 </header>
 <!-- <nav>
