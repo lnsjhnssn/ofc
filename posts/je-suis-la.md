@@ -8,3 +8,4 @@ tags:
 added: 2024-11-19T23:00:00.000Z
 ---
 
+![](</assets/foudre_Foudre image 5.jpg>)
